@@ -20,3 +20,9 @@ Individual pages:
 - tesamorelin.html
 
 Keep all HTML files and boss-beauty-hero.jpg in the same folder when publishing.
+
+
+V6 UPDATE:
+- Added a Research Catalog section with listed pricing to index.html.
+- Added CATALOG navigation link.
+- Added responsive pricing cards and current-specials area.
