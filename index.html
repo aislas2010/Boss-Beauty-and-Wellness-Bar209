@@ -50,8 +50,184 @@ main.detail-main{max-width:1100px;margin:auto;padding:70px 22px}.back{display:in
 <div class="special-box"><h3>✨ CURRENT SPECIALS</h3><p>Ask about current bundle pricing, multi-item specials, and availability.</p></div>
 <p class="catalog-disclaimer">Research-use information only. Products listed here are not presented as treatments or medical advice and are not intended for human or veterinary consumption.</p>
 </div></div>
+<!-- ORDER REQUEST FORM -->
+<style>
+.order-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 22px;
+}
 
+.order-section .order-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.order-section .order-heading h2 {
+  color: #171214;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.order-section .order-heading h2 span {
+  color: #c99532;
+}
+
+.order-section .order-heading p {
+  color: #665d61;
+  font-size: 14px;
+}
+
+.order-form-box {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 30px;
+  background: linear-gradient(145deg,#fff,#fbeef4);
+  border: 1px solid #c99532;
+  border-radius: 22px;
+  box-shadow: 0 18px 50px rgba(72,37,20,.14);
+}
+
+.order-form-box label {
+  display: block;
+  margin: 16px 0 7px;
+  color: #8b5d1c;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.order-form-box input,
+.order-form-box textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  border: 1px solid #d7ae58;
+  border-radius: 10px;
+  background: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+}
+
+.order-form-box textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.order-submit {
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px;
+  border: 1px solid #c99532;
+  border-radius: 30px;
+  background: #090909;
+  color: #ffe6a0;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: .7px;
+  cursor: pointer;
+}
+
+.order-submit:hover {
+  background: #c99532;
+  color: #fff;
+}
+
+.order-note {
+  text-align: center;
+  margin-top: 15px;
+  color: #665d61;
+  font-size: 10px;
+  line-height: 1.5;
+}
+</style>
+
+<section id="order-request" class="order-section">
+
+  <div class="order-heading">
+    <h2>ORDER <span>REQUEST</span></h2>
+    <p>Submit your research-product inquiry directly from our website.</p>
+  </div>
+
+  <div class="order-form-box">
+
+    <form action="https://formspree.io/f/mljdzvnp" method="POST">
+
+      <label for="customer-name">
+        Name *
+      </label>
+
+      <input
+        type="text"
+        id="customer-name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      >
+
+      <label for="customer-email">
+        Email *
+      </label>
+
+      <input
+        type="email"
+        id="customer-email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      >
+
+      <label for="customer-phone">
+        Phone Number
+      </label>
+
+      <input
+        type="tel"
+        id="customer-phone"
+        name="phone"
+        placeholder="Enter your phone number"
+      >
+
+      <label for="products">
+        Products Requested *
+      </label>
+
+      <textarea
+        id="products"
+        name="products"
+        placeholder="Example: GHK-Cu 100 MG - Qty 1&#10;Tirzepatide 30 MG - Qty 2"
+        required
+      ></textarea>
+
+      <label for="notes">
+        Additional Questions or Notes
+      </label>
+
+      <textarea
+        id="notes"
+        name="notes"
+        placeholder="Enter any questions or additional information..."
+      ></textarea>
+
+      <input
+        type="hidden"
+        name="_subject"
+        value="New Boss Beauty & Wellness Bar Order Request"
+      >
+
+      <button type="submit" class="order-submit">
+        SUBMIT ORDER REQUEST
+      </button>
+
+      <p class="order-note">
+        Research-use information only. Products listed are not presented
+        as medical advice and are not intended for human or veterinary consumption.
+      </p>
+
+    </form>
+
+  </div>
+
+</section>
 <div class="notice"><strong>IMPORTANT RESEARCH & EDUCATIONAL NOTICE</strong><br><br>The information on this website is for educational and research-information purposes only. It is not medical advice and is not intended to diagnose, treat, cure or prevent any disease. References to research do not establish safety or effectiveness for a particular use. Research compounds are not intended for human or veterinary consumption.</div>
 <section id="contact" class="contact"><div class="heading"><h2>GET IN <span class="gold">TOUCH</span></h2><p>Questions or general research inquiries?</p></div><div class="contactbox"><p>WhatsApp: <strong>920-930-9694</strong></p></div><div class="buttons" style="justify-content:center"><a class="btn primary" href="https://wa.me/19209309694" target="_blank">MESSAGE ON WHATSAPP</a><a href="https://wa.me/9209309694?text=Hi%2C%20I%20saw%20your%20website%20and%20wanted%20to%20connect!" target="_blank" style="background-color:#25D366; color:white; padding:14px 24px; border-radius:50px; text-decoration:none; font-weight:bold; font-family:sans-serif; display:inline-block;">
   💬 Chat on WhatsApp
